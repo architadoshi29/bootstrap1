@@ -1,0 +1,49 @@
+
+
+
+
+
+
+.hero {font-family: "Poppins", sans-serif;
+    font-size: 90px;
+    font-weight: 800;}
+.main a:hover{
+    color: red !important;
+
+}
+
+
+.colheight{
+    height: 500px;
+}
+.hovertext:hover {transform: scale(1.5);}
+.hoverparent{overflow: hidden;}
+.hovertext{
+    transition: 2s;
+}
+
+
+
+.main a{transition: 1s;}
+@media only screen and (min-width: 0px) and (max-width:375px){
+    .hero{
+        font-size: 50px;
+    }
+
+    .hero2{
+
+        width: 280px !important;
+    }
+}
+
+
+@media only screen and (min-width: 376px) and (max-width:992px){
+    .hero{
+        font-size: 50px;
+    }
+
+    .hero2{
+
+        width: 280px !important;
+    }
+}
