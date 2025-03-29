@@ -21,10 +21,17 @@
 .hovertext{
     transition: 2s;
 }
-
+ .h1text{font-size: 60px;}
 
 
 .main a{transition: 1s;}
+.imgheight{
+  
+
+height: 360px;}
+
+
+
 @media only screen and (min-width: 0px) and (max-width:375px){
     .hero{
         font-size: 50px;
