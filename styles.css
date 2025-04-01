@@ -32,8 +32,23 @@ height: 360px;}
 .heightbig{
     height: 400px !important
 }
-
-
+.hero9{
+    font-size: 100px;
+}.hero11{width: 200px ;height: 90px;;}
+.footer {
+   
+    background-color: rgb(234,0,0);
+}.mainlol{
+    color: white;
+}
+.hovermain:hover{
+    color: red !important
+}
+.hero11:hover{
+    background-color: grey !important;
+} .hero15:hover{
+    background-color: grey !important;
+}
 
 @media only screen and (min-width: 0px) and (max-width:375px){
     .hero{
@@ -44,12 +59,19 @@ height: 360px;}
 
         width: 280px !important;
     }
+    .hero9{
+        font-size: 30px !important;
+    }
 
 .h1text{
     font-size: 30px;
 }
 .heightbig{
     height: 400px !important;
+}
+.hero15{
+    width: 230px !important;
+    height: 100px !important;
 }}
 
 
@@ -62,7 +84,13 @@ height: 360px;}
 
         width: 280px !important;
     }
+    .hero15{
+        width: 230px!important ;
+    }
     .h1text{
         font-size: 50px;
+    }
+    .hero9{
+        font-size: 70px !important;
     }
 }
